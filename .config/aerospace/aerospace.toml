@@ -10,7 +10,7 @@ accordion-padding = 20
 # Turn off macOS "Hide application" (Cmd-h/Cmd-Alt-h) feature.
 # Avoids accidental messing with application windows, which is usually never
 # the intentional outcome.
-automatically-unhide-macos-hidden-apps = false
+automatically-unhide-macos-hidden-apps = true
 
 # Gaps pixel definitions.
 [gaps]
