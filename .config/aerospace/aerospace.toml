@@ -1,5 +1,7 @@
 # Reference: https://nikitabobko.github.io/AeroSpace/guide
 
+## Various options.
+
 # Start AeroSpace at login.
 start-at-login = true
 
@@ -21,7 +23,7 @@ outer.bottom = 10
 outer.top = 10
 outer.right = 10
 
-# Custom mappings for the main mode.
+## Key bindings.
 [mode.main.binding]
 
 # Moving node focus around.
@@ -36,63 +38,58 @@ alt-shift-j = 'move down'
 alt-shift-k = 'move up'
 alt-shift-l = 'move right'
 
-# Resize nodes.
-alt-leftSquareBracket = 'resize smart -50'
-alt-rightSquareBracket = 'resize smart +50'
-
-# Toggle node layout.
-alt-shift-leftSquareBracket = 'layout tiles horizontal vertical'
-alt-shift-rightSquareBracket = 'layout accordion horizontal vertical'
-
-# Switch workspaces.
-alt-1 = 'workspace 1'
-alt-2 = 'workspace 2'
-alt-3 = 'workspace 3'
-alt-4 = 'workspace 4'
-alt-5 = 'workspace 5'
-alt-q = 'workspace q'
-alt-w = 'workspace w'
-alt-e = 'workspace e'
-alt-r = 'workspace r'
-alt-t = 'workspace t'
-alt-a = 'workspace a'
-alt-f = 'workspace f'
-alt-g = 'workspace g'
-
-# Send nodes to specific workspaces.
-alt-shift-1 = 'move-node-to-workspace 1'
-alt-shift-2 = 'move-node-to-workspace 2'
-alt-shift-3 = 'move-node-to-workspace 3'
-alt-shift-4 = 'move-node-to-workspace 4'
-alt-shift-5 = 'move-node-to-workspace 5'
-alt-shift-q = 'move-node-to-workspace q'
-alt-shift-w = 'move-node-to-workspace w'
-alt-shift-e = 'move-node-to-workspace e'
-alt-shift-r = 'move-node-to-workspace r'
-alt-shift-t = 'move-node-to-workspace t'
-alt-shift-a = 'move-node-to-workspace a'
-alt-shift-f = 'move-node-to-workspace f'
-alt-shift-g = 'move-node-to-workspace g'
-
 # Switch back and forth between the current and the last workspace.
 alt-tab = 'workspace-back-and-forth'
 
 # Send workspaces between monitors.
 alt-shift-tab = 'move-workspace-to-monitor --wrap-around next'
 
-# Reload configuration.
-alt-shift-semicolon = 'reload-config'
+# Resize nodes.
+# Mnemonic: [M]inus resizing.
+alt-m = 'resize smart -50'
+# Mnemonic: [P]lus resizing.
+alt-p = 'resize smart +50'
 
-# Switch to application and the workspace it's in quickly.
-alt-enter = [
-  'exec-and-forget osascript -e "tell application \"Alacritty\"" -e "activate" -e "end tell"',
-  'mode main',
-]
-alt-shift-enter = [
-  'exec-and-forget osascript -e "tell application \"Intellij IDEA\"" -e "activate" -e "end tell"',
-  'mode main',
-]
-alt-ctrl-enter = [
-  'exec-and-forget osascript -e "tell application \"Chrome\"" -e "activate" -e "end tell"',
-  'mode main',
-]
+# Toggle node layout.
+# Mnemonic: [I]ndependent tiles.
+alt-i = 'layout tiles vertical horizontal'
+# Mnemonic: [O]verlayed tiles.
+alt-o = 'layout accordion vertical horizontal'
+
+# Reload configuration.
+# Mnemonic: [U]pdate configuration.
+alt-u = 'reload-config'
+
+# Switch workspaces.
+alt-q = 'workspace q'
+alt-w = 'workspace w'
+alt-e = 'workspace e'
+alt-r = 'workspace r'
+alt-t = 'workspace t'
+alt-a = 'workspace a'
+alt-s = 'workspace s'
+alt-d = 'workspace d'
+alt-f = 'workspace f'
+alt-g = 'workspace g'
+alt-z = 'workspace z'
+alt-x = 'workspace x'
+alt-c = 'workspace c'
+alt-v = 'workspace v'
+alt-b = 'workspace b'
+
+# Send nodes to specific workspaces.
+alt-shift-q = 'move-node-to-workspace q'
+alt-shift-w = 'move-node-to-workspace w'
+alt-shift-e = 'move-node-to-workspace e'
+alt-shift-r = 'move-node-to-workspace r'
+alt-shift-t = 'move-node-to-workspace t'
+alt-shift-a = 'move-node-to-workspace a'
+alt-shift-s = 'move-node-to-workspace s'
+alt-shift-d = 'move-node-to-workspace d'
+alt-shift-f = 'move-node-to-workspace f'
+alt-shift-g = 'move-node-to-workspace g'
+alt-shift-z = 'move-node-to-workspace z'
+alt-shift-x = 'move-node-to-workspace x'
+alt-shift-c = 'move-node-to-workspace c'
+alt-shift-v = 'move-node-to-workspace v'
+alt-shift-b = 'move-node-to-workspace b'
