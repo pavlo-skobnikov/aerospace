@@ -28,9 +28,6 @@ outer.right = 10
 # Switch to the command mode.
 ctrl-a = 'mode command'
 
-# Switch back and forth between the current and the last workspace.
-alt-tab = 'workspace-back-and-forth'
-
 ## Command mode key bindings.
 [mode.command.binding]
 # Moving node focus around.
@@ -44,6 +41,9 @@ shift-h = ['move left', 'mode main']
 shift-j = ['move down', 'mode main']
 shift-k = ['move up', 'mode main']
 shift-l = ['move right', 'mode main']
+
+# Switch back and forth between the current and the last workspace.
+tab = ['workspace-back-and-forth', 'mode main']
 
 # Send workspaces between monitors.
 shift-tab = ['move-workspace-to-monitor --wrap-around next', 'mode main']
