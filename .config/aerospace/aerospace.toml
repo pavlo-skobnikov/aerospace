@@ -26,7 +26,7 @@ outer.right = 10
 ## Top-level (i.e. accessible all the time) key bindings.
 [mode.main.binding]
 # Switch to the command mode.
-ctrl-a = 'mode command'
+ctrl-g = 'mode command'
 
 ## Command mode key bindings.
 [mode.command.binding]
