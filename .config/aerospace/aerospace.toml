@@ -30,6 +30,8 @@ ctrl-g = 'mode command'
 
 ## Command mode key bindings.
 [mode.command.binding]
+esc = 'mode main'
+
 # Moving node focus around.
 h = ['focus left', 'mode main']
 j = ['focus down', 'mode main']
