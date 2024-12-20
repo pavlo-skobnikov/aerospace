@@ -25,77 +25,70 @@ outer.right = 10
 
 ## Top-level (i.e. accessible all the time) key bindings.
 [mode.main.binding]
-# Switch to the command mode.
-ctrl-g = 'mode command'
-
-## Command mode key bindings.
-[mode.command.binding]
-esc = 'mode main'
-
 # Moving node focus around.
-h = ['focus left', 'mode main']
-j = ['focus down', 'mode main']
-k = ['focus up', 'mode main']
-l = ['focus right', 'mode main']
+alt-h = 'focus left'
+alt-j = 'focus down'
+alt-k = 'focus up'
+alt-l = 'focus right'
 
 # Moving nodes around.
-shift-h = ['move left', 'mode main']
-shift-j = ['move down', 'mode main']
-shift-k = ['move up', 'mode main']
-shift-l = ['move right', 'mode main']
+alt-shift-h = 'move left'
+alt-shift-j = 'move down'
+alt-shift-k = 'move up'
+alt-shift-l = 'move right'
 
 # Switch back and forth between the current and the last workspace.
-tab = ['workspace-back-and-forth', 'mode main']
+alt-tab = 'workspace-back-and-forth'
 
 # Send workspaces between monitors.
-shift-tab = ['move-workspace-to-monitor --wrap-around next', 'mode main']
+alt-shift-tab = 'move-workspace-to-monitor --wrap-around next'
 
 # Resize nodes.
 # Mnemonic: [M]inus resizing.
-m = ['resize smart -50', 'mode main']
+alt-m = 'resize smart -50'
 # Mnemonic: [P]lus resizing.
-p = ['resize smart +50', 'mode main']
+alt-p = 'resize smart +50'
 
 # Toggle node layout.
 # Mnemonic: [I]ndependent tiles.
-i = ['layout tiles vertical horizontal', 'mode main']
+alt-i = 'layout tiles vertical horizontal'
 # Mnemonic: [O]verlayed tiles.
-o = ['layout accordion vertical horizontal', 'mode main']
+alt-o = 'layout accordion vertical horizontal'
 
 # Reload configuration.
 # Mnemonic: [U]pdate configuration.
-u = ['reload-config', 'mode main']
+alt-u = 'reload-config'
 
 # Switch workspaces.
-q = ['workspace q', 'mode main']
-w = ['workspace w', 'mode main']
-e = ['workspace e', 'mode main']
-r = ['workspace r', 'mode main']
-t = ['workspace t', 'mode main']
-a = ['workspace a', 'mode main']
-s = ['workspace s', 'mode main']
-d = ['workspace d', 'mode main']
-f = ['workspace f', 'mode main']
-g = ['workspace g', 'mode main']
-z = ['workspace z', 'mode main']
-x = ['workspace x', 'mode main']
-c = ['workspace c', 'mode main']
-v = ['workspace v', 'mode main']
-b = ['workspace b', 'mode main']
+alt-q = 'workspace q'
+alt-w = 'workspace w'
+alt-e = 'workspace e'
+alt-r = 'workspace r'
+alt-t = 'workspace t'
+alt-a = 'workspace a'
+alt-s = 'workspace s'
+alt-d = 'workspace d'
+alt-f = 'workspace f'
+alt-g = 'workspace g'
+alt-z = 'workspace z'
+alt-x = 'workspace x'
+alt-c = 'workspace c'
+alt-v = 'workspace v'
+alt-b = 'workspace b'
 
 # Send nodes to specific workspaces.
-shift-q = ['move-node-to-workspace q', 'mode main']
-shift-w = ['move-node-to-workspace w', 'mode main']
-shift-e = ['move-node-to-workspace e', 'mode main']
-shift-r = ['move-node-to-workspace r', 'mode main']
-shift-t = ['move-node-to-workspace t', 'mode main']
-shift-a = ['move-node-to-workspace a', 'mode main']
-shift-s = ['move-node-to-workspace s', 'mode main']
-shift-d = ['move-node-to-workspace d', 'mode main']
-shift-f = ['move-node-to-workspace f', 'mode main']
-shift-g = ['move-node-to-workspace g', 'mode main']
-shift-z = ['move-node-to-workspace z', 'mode main']
-shift-x = ['move-node-to-workspace x', 'mode main']
-shift-c = ['move-node-to-workspace c', 'mode main']
-shift-v = ['move-node-to-workspace v', 'mode main']
-shift-b = ['move-node-to-workspace b', 'mode main']
+alt-shift-q = 'move-node-to-workspace q'
+alt-shift-w = 'move-node-to-workspace w'
+alt-shift-e = 'move-node-to-workspace e'
+alt-shift-r = 'move-node-to-workspace r'
+alt-shift-t = 'move-node-to-workspace t'
+alt-shift-a = 'move-node-to-workspace a'
+alt-shift-s = 'move-node-to-workspace s'
+alt-shift-d = 'move-node-to-workspace d'
+alt-shift-f = 'move-node-to-workspace f'
+alt-shift-g = 'move-node-to-workspace g'
+alt-shift-z = 'move-node-to-workspace z'
+alt-shift-x = 'move-node-to-workspace x'
+alt-shift-c = 'move-node-to-workspace c'
+alt-shift-v = 'move-node-to-workspace v'
+alt-shift-b = 'move-node-to-workspace b'
