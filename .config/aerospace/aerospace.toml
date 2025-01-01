@@ -26,69 +26,69 @@ outer.right = 10
 ## Top-level (i.e. accessible all the time) key bindings.
 [mode.main.binding]
 # Moving node focus around.
-ctrl-cmd-h = 'focus left'
-ctrl-cmd-j = 'focus down'
-ctrl-cmd-k = 'focus up'
-ctrl-cmd-l = 'focus right'
+cmd-ctrl-alt-h = 'focus left'
+cmd-ctrl-alt-j = 'focus down'
+cmd-ctrl-alt-k = 'focus up'
+cmd-ctrl-alt-l = 'focus right'
 
 # Moving nodes around.
-ctrl-alt-h = 'move left'
-ctrl-alt-j = 'move down'
-ctrl-alt-k = 'move up'
-ctrl-alt-l = 'move right'
+cmd-ctrl-alt-comma = 'move left'
+cmd-ctrl-alt-period = 'move down'
+cmd-ctrl-alt-leftSquareBracket = 'move up'
+cmd-ctrl-alt-rightSquareBracket = 'move right'
 
 # Switch back and forth between the current and the last workspace.
-ctrl-cmd-tab = 'workspace-back-and-forth'
+cmd-ctrl-alt-tab = 'workspace-back-and-forth'
 
 # Send workspaces between monitors.
-ctrl-alt-tab = 'move-workspace-to-monitor --wrap-around next'
+cmd-ctrl-alt-shift-tab = 'move-workspace-to-monitor --wrap-around next'
 
 # Resize nodes.
 # Mnemonic: [M]inus resizing.
-ctrl-cmd-m = 'resize smart -50'
+cmd-ctrl-alt-m = 'resize smart -50'
 # Mnemonic: [P]lus resizing.
-ctrl-cmd-p = 'resize smart +50'
+cmd-ctrl-alt-p = 'resize smart +50'
 
 # Toggle node layout.
 # Mnemonic: [I]ndependent tiles.
-ctrl-cmd-i = 'layout tiles vertical horizontal'
+cmd-ctrl-alt-i = 'layout tiles vertical horizontal'
 # Mnemonic: [O]verlayed tiles.
-ctrl-cmd-o = 'layout accordion vertical horizontal'
+cmd-ctrl-alt-o = 'layout accordion vertical horizontal'
 
 # Reload configuration.
 # Mnemonic: [U]pdate configuration.
-ctrl-cmd-u = 'reload-config'
+cmd-ctrl-alt-u = 'reload-config'
 
 # Switch workspaces.
-ctrl-cmd-q = 'workspace q'
-ctrl-cmd-w = 'workspace w'
-ctrl-cmd-e = 'workspace e'
-ctrl-cmd-r = 'workspace r'
-ctrl-cmd-t = 'workspace t'
-ctrl-cmd-a = 'workspace a'
-ctrl-cmd-s = 'workspace s'
-ctrl-cmd-d = 'workspace d'
-ctrl-cmd-f = 'workspace f'
-ctrl-cmd-g = 'workspace g'
-ctrl-cmd-z = 'workspace z'
-ctrl-cmd-x = 'workspace x'
-ctrl-cmd-c = 'workspace c'
-ctrl-cmd-v = 'workspace v'
-ctrl-cmd-b = 'workspace b'
+cmd-ctrl-alt-q = 'workspace q'
+cmd-ctrl-alt-w = 'workspace w'
+cmd-ctrl-alt-e = 'workspace e'
+cmd-ctrl-alt-r = 'workspace r'
+cmd-ctrl-alt-t = 'workspace t'
+cmd-ctrl-alt-a = 'workspace a'
+cmd-ctrl-alt-s = 'workspace s'
+cmd-ctrl-alt-d = 'workspace d'
+cmd-ctrl-alt-f = 'workspace f'
+cmd-ctrl-alt-g = 'workspace g'
+cmd-ctrl-alt-z = 'workspace z'
+cmd-ctrl-alt-x = 'workspace x'
+cmd-ctrl-alt-c = 'workspace c'
+cmd-ctrl-alt-v = 'workspace v'
+cmd-ctrl-alt-b = 'workspace b'
 
 # Send nodes to specific workspaces.
-ctrl-alt-q = 'move-node-to-workspace q'
-ctrl-alt-w = 'move-node-to-workspace w'
-ctrl-alt-e = 'move-node-to-workspace e'
-ctrl-alt-r = 'move-node-to-workspace r'
-ctrl-alt-t = 'move-node-to-workspace t'
-ctrl-alt-a = 'move-node-to-workspace a'
-ctrl-alt-s = 'move-node-to-workspace s'
-ctrl-alt-d = 'move-node-to-workspace d'
-ctrl-alt-f = 'move-node-to-workspace f'
-ctrl-alt-g = 'move-node-to-workspace g'
-ctrl-alt-z = 'move-node-to-workspace z'
-ctrl-alt-x = 'move-node-to-workspace x'
-ctrl-alt-c = 'move-node-to-workspace c'
-ctrl-alt-v = 'move-node-to-workspace v'
-ctrl-alt-b = 'move-node-to-workspace b'
+cmd-ctrl-alt-shift-q = 'move-node-to-workspace q'
+cmd-ctrl-alt-shift-w = 'move-node-to-workspace w'
+cmd-ctrl-alt-shift-e = 'move-node-to-workspace e'
+cmd-ctrl-alt-shift-r = 'move-node-to-workspace r'
+cmd-ctrl-alt-shift-t = 'move-node-to-workspace t'
+cmd-ctrl-alt-shift-a = 'move-node-to-workspace a'
+cmd-ctrl-alt-shift-s = 'move-node-to-workspace s'
+cmd-ctrl-alt-shift-d = 'move-node-to-workspace d'
+cmd-ctrl-alt-shift-f = 'move-node-to-workspace f'
+cmd-ctrl-alt-shift-g = 'move-node-to-workspace g'
+cmd-ctrl-alt-shift-z = 'move-node-to-workspace z'
+cmd-ctrl-alt-shift-x = 'move-node-to-workspace x'
+cmd-ctrl-alt-shift-c = 'move-node-to-workspace c'
+cmd-ctrl-alt-shift-v = 'move-node-to-workspace v'
+cmd-ctrl-alt-shift-b = 'move-node-to-workspace b'
